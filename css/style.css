@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-purple {
+  background: #292c34;
+}
+
+header h1 {
+  color: #24272e;
+}
+
+div.score-board {
+  font-size: 46px;
+  border: 3px solid;
+}
+
+#user-label {
+  background: #e25840;
+  font-size: 14px;
+  top: 50%;
+  left: 0;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+}
+
+#computer-label {
+  background: #e25840;
+  font-size: 14px;
+  top: 50%;
+  right: 0;
+  transform: translateX(50%) translateY(-50%);
+  -webkit-transform: translateX(50%) translateY(-50%);
+  -moz-transform: translateX(50%) translateY(-50%);
+  -ms-transform: translateX(50%) translateY(-50%);
+  -o-transform: translateX(50%) translateY(-50%);
+}
+
+.choice img {
+  border: 3px solid #fff;
+}
+
+.choice img:hover {
+  cursor: pointer;
+  background: #24272e;
+}
